@@ -1,4 +1,3 @@
 User-agent: *
 Allow: /
-
 Sitemap: https://arcanusonline.netlify.app/sitemap.xml

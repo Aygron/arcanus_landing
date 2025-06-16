@@ -1,0 +1,17 @@
+name: Archive to Wayback Machine
+
+on:
+  schedule:
+    # Se ejecuta a las 00:00 UTC de cada domingo
+    - cron: '0 0 * * 0'
+  workflow_dispatch: # Permite la ejecución manual desde la pestaña Actions de GitHub
+
+jobs:
+  archive:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Archive Homepage
+        run: curl -s "https://web.archive.org/save/https://arcanusonline.netlify.app"
+
+      - name: Archive Terms of Service
+        run: curl -s "https://web.archive.org/save/https://arcanusonline.netlify.app/terminos.html"
