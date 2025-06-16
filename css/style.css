@@ -92,7 +92,7 @@ header ul li a:hover {
 
 /* Hero Section */
 #hero {
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)), url('../img/84617216_663772241096467_6479898840215390623_n.jpg') no-repeat center center/cover;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)), url('../img/fondo_banner.png') no-repeat center center/cover;
     height: 50vh;
     min-height: 450px;
     display: flex;
