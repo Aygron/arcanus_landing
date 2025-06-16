@@ -69,23 +69,34 @@ header ul li a {
     transition: color 0.3s ease;
 }
 
-header ul li a:hover {
+header nav .logo:hover {
     color: #fff;
-    text-shadow: 0 0 5px #f0e68c;
+}
+
+.status-label {
+    color: #f0e68c;
+    border: 1px solid #c9b38a;
+    padding: 8px 15px;
+    border-radius: 5px;
+    font-family: 'Cinzel', serif;
+    font-size: 0.9rem;
+    opacity: 0.7;
+    pointer-events: none; /* Para que no parezca clickeable */
 }
 
 .cta-button {
-    background-color: #8b0000; /* Rojo oscuro */
-    color: #fff;
+    background: linear-gradient(145deg, #d4af37, #f0e68c);
+    color: #1a1a1a;
     padding: 10px 20px;
     border-radius: 5px;
     font-weight: bold;
-    transition: background-color 0.3s ease;
+    transition: all 0.3s ease;
+    border: 1px solid #c9b38a;
 }
 
 .cta-button:hover {
-    background-color: #a52a2a; /* Marrón */
-    color: #fff;
+    background: linear-gradient(145deg, #c9b38a, #e0d57c);
+    color: #1a1a1a;
     transform: translateY(-2px);
     box-shadow: 0 4px 8px rgba(0,0,0,0.4);
 }
@@ -98,6 +109,7 @@ header ul li a:hover {
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-top: 8rem; /* Espacio para compensar el header fijo y añadir separación */
     text-align: center;
     color: #fff;
     position: relative;
@@ -162,6 +174,10 @@ section h2 {
     text-align: center;
     font-size: 2.5rem;
     margin-bottom: 40px;
+}
+
+#gallery {
+    padding-bottom: 120px; /* Espacio extra antes del footer */
 }
 
 /* Features */
