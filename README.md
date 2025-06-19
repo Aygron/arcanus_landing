@@ -2,7 +2,7 @@
 
 Esta es la landing page oficial para el próximo MMORPG de fantasía medieval, **Arcanus Online**. El sitio está diseñado para ser una puerta de entrada para nuevos jugadores, proporcionando información clave y un enlace directo para unirse a la comunidad en Discord.
 
-**[Ver el sitio en vivo](https://arcanusonline.netlify.app/)**
+**[Ver el sitio en vivo](https://arcanusonline.com/)**
 
 ---
 
@@ -16,11 +16,25 @@ Esta es la landing page oficial para el próximo MMORPG de fantasía medieval, *
 
 ## 🛠️ Tecnologías Utilizadas
 
+*   **PHP**
 *   **HTML5**
 *   **CSS3** (con Flexbox y Grid para el layout)
-*   **JavaScript** (para la interactividad de la galería y el scroll suave)
+*   **JavaScript** (para la interactividad de la galería)
 *   **Font Awesome** (para los iconos)
 *   **Google Fonts** (para las tipografías personalizadas)
+
+## 🚀 Cómo ejecutar localmente
+
+Para ver este proyecto en tu máquina local, necesitas un servidor web con soporte para PHP.
+
+1.  **Clona el repositorio.**
+2.  **Navega al directorio del proyecto.**
+3.  **Inicia un servidor PHP local:**
+    Puedes usar el servidor incorporado de PHP para una configuración rápida.
+    ```bash
+    php -S localhost:8000
+    ```
+4.  Abre tu navegador y visita `http://localhost:8000`.
 
 ---
 

@@ -10,7 +10,9 @@
     <link rel="icon" href="img/arcanus_logo.png" type="image/png">
 </head>
 <body>
-    <header id="header-placeholder"></header>
+    <header>
+        <?php include 'header.php'; ?>
+    </header>
 
     <main class="container">
         <section class="legal-content">
@@ -92,7 +94,9 @@
         </section>
     </main>
 
-    <footer id="footer-placeholder"></footer>
+    <footer>
+        <?php include 'footer.php'; ?>
+    </footer>
     <script src="js/main.js"></script>
  </body>
 </html>

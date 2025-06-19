@@ -1,17 +1,5 @@
 // Lightbox Gallery
 document.addEventListener("DOMContentLoaded", function() {
-    // Cargar componentes reutilizables
-    const loadComponent = (component, placeholderId) => {
-        fetch(component)
-            .then(response => response.text())
-            .then(data => {
-                document.getElementById(placeholderId).innerHTML = data;
-            });
-    };
-
-    loadComponent('header.html', 'header-placeholder');
-    loadComponent('footer.html', 'footer-placeholder');
-
     // Lightbox functionality
     let slideIndex = 1;
     showSlides(slideIndex);
