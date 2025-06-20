@@ -11,7 +11,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Archive Homepage
-        run: curl -s "https://web.archive.org/save/https://arcanusonline.netlify.app"
+        run: curl -s "https://web.archive.org/save/https://arcanusonline.com"
 
       - name: Archive Terms of Service
-        run: curl -s "https://web.archive.org/save/https://arcanusonline.netlify.app/terminos.html"
+        run: curl -s "https://web.archive.org/save/https://arcanusonline.com/terminos.html"
+
+      - name: Archive Reglamento
+        run: curl -s "https://web.archive.org/save/https://arcanusonline.com/reglamento.html"
