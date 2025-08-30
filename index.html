@@ -68,28 +68,38 @@
         <section id="hero">
             <div class="hero-content">
                 <h1>El Mundo de Arcanus Te Espera</h1>
-                <p>¡Prepárate para la gran aventura que comenzará en:</p>
+                <p>¡Descarga ahora y comienza tu aventura en Arcanus Online!</p>
                 
-                <div id="countdown">
-                    <div class="countdown-item">
-                        <span id="days">00</span>
-                        <span class="countdown-label">Días</span>
-                    </div>
-                    <div class="countdown-item">
-                        <span id="hours">00</span>
-                        <span class="countdown-label">Horas</span>
-                    </div>
-                    <div class="countdown-item">
-                        <span id="minutes">00</span>
-                        <span class="countdown-label">Minutos</span>
-                    </div>
-                    <div class="countdown-item">
-                        <span id="seconds">00</span>
-                        <span class="countdown-label">Segundos</span>
-                    </div>
+                <div class="download-buttons" style="display: flex; flex-direction: column; gap: 15px; max-width: 600px; margin: 30px auto;">
+                    <a href="https://github.com/ArcanusOnline/CLI_Releases/releases/download/v0.0.1/ArcanusSetup.exe" class="btn btn-large" style="background: linear-gradient(145deg, #333, #6e5494); color: white; text-decoration: none; padding: 15px 25px; border-radius: 8px; display: flex; align-items: center; justify-content: space-between;" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-github" style="font-size: 1.5rem; margin-right: 15px;"></i>
+                        <span style="flex-grow: 1; text-align: left;">
+                            <strong>Descargar desde GitHub</strong><br>
+                            <small>Versión estable (v0.0.1)</small>
+                        </span>
+                        <i class="fas fa-download"></i>
+                    </a>
+                    
+                    <a href="https://mega.nz/file/exkCXCoI#tTl19VkyJ1ckwL7d821riOyk4XHdFe7cfLuRD3MRNK8" class="btn btn-large" style="background: linear-gradient(145deg, #D9272E, #A51C22); color: white; text-decoration: none; padding: 15px 25px; border-radius: 8px; display: flex; align-items: center; justify-content: space-between;" target="_blank" rel="noopener noreferrer">
+                        <i class="fas fa-hdd" style="font-size: 1.5rem; margin-right: 15px;"></i>
+                        <span style="flex-grow: 1; text-align: left;">
+                            <strong>Descargar desde MEGA</strong><br>
+                            <small>Descarga cifrada</small>
+                        </span>
+                        <i class="fas fa-download"></i>
+                    </a>
+                    
+                    <a href="https://www.mediafire.com/file/i652fl81cur13ct/ArcanusSetup.exe/file" class="btn btn-large" style="background: linear-gradient(145deg, #1299F7, #004E95); color: white; text-decoration: none; padding: 15px 25px; border-radius: 8px; display: flex; align-items: center; justify-content: space-between;" target="_blank" rel="noopener noreferrer">
+                        <i class="fas fa-cloud-download-alt" style="font-size: 1.5rem; margin-right: 15px;"></i>
+                        <span style="flex-grow: 1; text-align: left;">
+                            <strong>Descargar desde MediaFire</strong><br>
+                            <small>Descarga directa</small>
+                        </span>
+                        <i class="fas fa-download"></i>
+                    </a>
                 </div>
                 
-                <p>¡Únete a la comunidad de Discord y no te pierdas las últimas novedades y anuncios!</p>
+                <p style="margin-top: 20px;">¡Únete a la comunidad de Discord y no te pierdas las últimas novedades y anuncios!</p>
                 <a href="https://discord.com/invite/DYFFeHKyw7" target="_blank" class="btn btn-large discord-button">
                     <i class="fab fa-discord"></i> Unirse al Discord
                 </a>
@@ -141,6 +151,7 @@
                 <div class="gallery-item"><img src="img/4.png" alt="Galería de Arcanus Online 4" onclick="openLightbox();currentSlide(4)"></div>
             </div>
         </section>
+
     </main>
 
     <footer id="footer-placeholder"></footer>
