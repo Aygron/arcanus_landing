@@ -1,0 +1,18 @@
+[[headers]]
+  for = "/*"
+  [headers.values]
+    # Protección contra iframes (evita que otros incrusten tu web)
+    X-Frame-Options = "DENY"
+    # Evita que el navegador adivine tipos de archivo
+    X-Content-Type-Options = "nosniff"
+    # Protección básica XSS
+    X-XSS-Protection = "1; mode=block"
+    # Privacidad en referidos
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    
+    # CSP AJUSTADA A TUS ARCHIVOS:
+    # 1. script-src: Permite scripts propios y 'unsafe-inline' (necesario para tus onclick="..." en el HTML).
+    # 2. style-src: Permite tus CSS, Google Fonts y FontAwesome (CDN).
+    # 3. font-src: Permite descargar las fuentes de Google y los iconos de FontAwesome.
+    # 4. connect-src: Permite que 'fetch' cargue tu header.html y footer.html.
+    Content-Security-Policy = "default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://cdnjs.cloudflare.com; font-src 'self' https://fonts.gstatic.com https://cdnjs.cloudflare.com; img-src 'self' data: https:; connect-src 'self';"
