@@ -6,17 +6,17 @@
     {
       "id": "github",
       "label": "Descargar Instalador",
-      "detail": "Versión v0.9.0.962 - 100% Seguro",
-      "url": "https://github.com/ArcanusOnline/CLI_Releases/releases/download/v0.0.1/ArcanusSetup.0.9.0.962.exe",
+      "detail": "Versión v0.9.0.970 - 100% Seguro",
+      "url": "https://github.com/ArcanusOnline/CLI_Releases/releases/download/v0.0.1/ArcanusSetup.0.9.0.970.exe",
       "icon": "fab fa-github",
       "class": "github-btn",
-      "ariaLabel": "Descargar Arcanus Online desde GitHub - Versión estable v0.9.0.962"
+      "ariaLabel": "Descargar Arcanus Online desde GitHub - Versión estable v0.9.0.970"
     },
     {
       "id": "mega",
       "label": "Descargar desde MEGA",
       "detail": "Descarga cifrada y segura",
-      "url": "https://mega.nz/file/i8VSiDZR#OdUrCVTagSaj_tjcvtaohvzrOLxKeNeJkj4xD4aLJaA",
+      "url": "https://mega.nz/file/nx91nADQ#bUhf14462vPxwhPqfvOyGSuAgDHuCigeexvFgk_HY_Q",
       "icon": "fas fa-hdd",
       "class": "mega-btn",
       "ariaLabel": "Descargar Arcanus Online desde MEGA - Descarga cifrada"
@@ -25,7 +25,7 @@
       "id": "mediafire",
       "label": "Descarga Directa",
       "detail": "Sin esperas - Verificado",
-      "url": "https://www.mediafire.com/file/2g7y534q7zm9jqb/ArcanusSetup.0.9.0.962.exe/file",
+      "url": "https://www.mediafire.com/file/7n75dzs44mf2h4q/ArcanusSetup.0.9.0.970.exe/file",
       "icon": "fas fa-cloud-download-alt",
       "class": "mediafire-btn",
       "ariaLabel": "Descargar Arcanus Online desde MediaFire - Descarga directa"
