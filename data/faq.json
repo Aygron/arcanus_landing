@@ -1,0 +1,30 @@
+{
+  "title": "Preguntas Frecuentes sobre Arcanus Online",
+  "subtitle": "Resolvé tus dudas sobre el juego, la descarga y la comunidad",
+  "items": [
+    {
+      "question": "¿Arcanus Online es lo mismo que Argentum Online?",
+      "answer": "Arcanus Online está basado en Argentum Online y mantiene sus mecánicas, gráficos e intervalos clásicos. Es el sucesor espiritual desarrollado por el staff de Tierras del Sur, con un motor gráfico renovado para mejor rendimiento. Si jugaste AO, te vas a sentir como en casa."
+    },
+    {
+      "question": "¿Cómo descargo Arcanus Online gratis?",
+      "answer": "Podés descargar Arcanus Online completamente gratis desde nuestra página. Ofrecemos el instalador por GitHub, MEGA y MediaFire. Solo descargá, instalá y creá tu cuenta para empezar a jugar en minutos. No hay costos ocultos ni suscripciones."
+    },
+    {
+      "question": "¿Qué relación tiene Arcanus con Tierras del Sur?",
+      "answer": "El equipo detrás de Arcanus Online está compuesto por miembros del staff que administraron Tierras del Sur, uno de los servidores de Argentum Online más populares y longevos de Argentina. Traemos toda esa experiencia para crear un juego mejor y más estable."
+    },
+    {
+      "question": "¿Qué requisitos necesito para jugar?",
+      "answer": "Arcanus Online funciona en casi cualquier PC con Windows 7 o superior. Los requisitos mínimos son: Intel Core i3, 4 GB de RAM y una tarjeta gráfica compatible con DirectX 9.0c. Gracias a nuestro motor optimizado, incluso equipos antiguos pueden correrlo de manera fluida."
+    },
+    {
+      "question": "¿El juego tiene Pay-to-Win o microtransacciones?",
+      "answer": "No. Arcanus Online es 100% gratuito y no tiene mecánicas Pay-to-Win. Todo el contenido del juego es accesible para todos los jugadores por igual. Las donaciones son voluntarias y solo ofrecen beneficios cosméticos que no afectan el gameplay."
+    },
+    {
+      "question": "¿Cuántos jugadores tiene Arcanus Online?",
+      "answer": "Arcanus Online cuenta con una comunidad activa y creciente. Nuestro servidor tiene jugadores conectados las 24 horas y organizamos eventos semanales. Unite al Discord para ver la actividad en tiempo real y conectar con otros jugadores."
+    }
+  ]
+}

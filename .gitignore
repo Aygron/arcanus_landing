@@ -5,3 +5,6 @@ Thumbs.db
 # Editor-specific files
 .vscode/
 .idea/
+
+# Panel de administración (solo uso local, no se sube al deploy)
+admin/

@@ -1,0 +1,79 @@
+{
+  "title": "Descargar Arcanus Online Gratis",
+  "subtitle": "Elegí tu método de descarga preferido y empezá a jugar en minutos",
+  "securityNotice": "Todos nuestros archivos son 100% seguros. Verificados por VirusTotal.",
+  "downloads": [
+    {
+      "id": "github",
+      "label": "Descargar Instalador",
+      "detail": "Versión v0.9.0.962 - 100% Seguro",
+      "url": "https://github.com/ArcanusOnline/CLI_Releases/releases/download/v0.0.1/ArcanusSetup.0.9.0.962.exe",
+      "icon": "fab fa-github",
+      "class": "github-btn",
+      "ariaLabel": "Descargar Arcanus Online desde GitHub - Versión estable v0.9.0.962"
+    },
+    {
+      "id": "mega",
+      "label": "Descargar desde MEGA",
+      "detail": "Descarga cifrada y segura",
+      "url": "https://mega.nz/file/i8VSiDZR#OdUrCVTagSaj_tjcvtaohvzrOLxKeNeJkj4xD4aLJaA",
+      "icon": "fas fa-hdd",
+      "class": "mega-btn",
+      "ariaLabel": "Descargar Arcanus Online desde MEGA - Descarga cifrada"
+    },
+    {
+      "id": "mediafire",
+      "label": "Descarga Directa",
+      "detail": "Sin esperas - Verificado",
+      "url": "https://www.mediafire.com/file/2g7y534q7zm9jqb/ArcanusSetup.0.9.0.962.exe/file",
+      "icon": "fas fa-cloud-download-alt",
+      "class": "mediafire-btn",
+      "ariaLabel": "Descargar Arcanus Online desde MediaFire - Descarga directa"
+    }
+  ],
+  "virusTotal": [
+    {
+      "label": "Instalador",
+      "detail": "Análisis completo",
+      "url": "https://www.virustotal.com/gui/file/4098431b56c829b11b9c316241169ca10822853b85554b537619b96243b30112",
+      "ariaLabel": "Ver análisis de VirusTotal del Instalador"
+    },
+    {
+      "label": "Cliente del Juego",
+      "detail": "Análisis completo",
+      "url": "https://www.virustotal.com/gui/file/6ebeeb776cfbfff89de32841429eb34ac208330bb590fbceadcc899cedff18c3",
+      "ariaLabel": "Ver análisis de VirusTotal del Cliente"
+    }
+  ],
+  "requisitos": {
+    "title": "Requisitos del Sistema",
+    "subtitle": "Configuración mínima y recomendada para jugar Arcanus Online",
+    "minimos": {
+      "icon": "fas fa-desktop",
+      "heading": "Mínimos",
+      "specs": [
+        { "key": "SO", "value": "Windows 7/8/10/11 (64-bit)" },
+        { "key": "Procesador", "value": "Intel Core i3 o AMD equivalente" },
+        { "key": "Memoria", "value": "4 GB RAM" },
+        { "key": "Gráficos", "value": "DirectX 9.0c compatible" },
+        { "key": "DirectX", "value": "Versión 9.0c" },
+        { "key": "Red", "value": "Conexión a internet" },
+        { "key": "Almacenamiento", "value": "2 GB espacio disponible" }
+      ]
+    },
+    "recomendados": {
+      "icon": "fas fa-rocket",
+      "heading": "Recomendados",
+      "specs": [
+        { "key": "SO", "value": "Windows 10/11 (64-bit)" },
+        { "key": "Procesador", "value": "Intel Core i5 o AMD Ryzen 5" },
+        { "key": "Memoria", "value": "8 GB RAM" },
+        { "key": "Gráficos", "value": "NVIDIA GTX 660 / AMD Radeon HD 7870" },
+        { "key": "DirectX", "value": "Versión 11" },
+        { "key": "Red", "value": "Conexión banda ancha" },
+        { "key": "Almacenamiento", "value": "4 GB espacio disponible (SSD recomendado)" }
+      ]
+    },
+    "note": "Arcanus Online utiliza un motor gráfico optimizado que funciona en la mayoría de PCs modernos y muchos equipos antiguos. Recomendamos usar <strong>SSD</strong> para tiempos de carga más rápidos."
+  }
+}

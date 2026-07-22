@@ -1,0 +1,10 @@
+{
+  "name": "arcanus-landing",
+  "version": "1.0.0",
+  "description": "Landing page de Arcanus Online",
+  "private": true,
+  "scripts": {
+    "build": "node scripts/build.js",
+    "serve": "npx serve -l 3000"
+  }
+}

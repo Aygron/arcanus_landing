@@ -1,0 +1,42 @@
+[
+  {
+    "id": 4,
+    "titulo": "¡Actualización de Balance!",
+    "categoria": "Notas del parche",
+    "resumen": "Queremos contarles que en los últimos meses hemos trabajado mucho sobre clases, armas, hechizos, resistencia mágica, objetos y bonificadores de raza para seguir mejorando el balance general del juego.",
+    "contenido": "Los invitamos a entrar, probar los cambios y dejarnos su feedback. Para nosotros es muy importante ver cómo se sienten estos ajustes en juego real y seguir puliendo lo que haga falta.\n<br>\nPueden pasar por el canal de <a href=\"https://discord.com/channels/860283261539450881/1275953190361104406/1483995832154849311\">changelog</a> para enterarse de todos los cambios.",
+    "imagen": "https://cdn.discordapp.com/attachments/860283384618287134/1484002801301585920/Gemini_Generated_Image_ek87w2ek87w2ek87.png?ex=6a62190f&is=6a60c78f&hm=15aa32aad9d46822f5fba2a197f151cc7d5c72c730e5e9c9918f254b80a935ba&",
+    "autor": "Aygron",
+    "fecha": "2026-03-18"
+  },
+  {
+    "id": 1,
+    "titulo": "¡Bienvenidos a todos los que se suman día a día a nuestra comunidad! ⚔️",
+    "categoria": "Comunidad",
+    "resumen": "Las fuerzas oscuras comienzan a despertar. Durante un horario limitado, portales al Inframundo aparecerán en distintos puntos del mundo.",
+    "contenido": "Para los que recién nos conocen, somos un proyecto que nace de la esencia de <strong>TDS1</strong>, pero potenciado por un <strong>motor gráfico renovado </strong>y adaptado a las PC actuales. Nuestro objetivo es que disfruten de un rendimiento óptimo y un agite totalmente fluido.\n<br><br>\nVan a encontrar muchísimas actualizaciones en el funcionamiento, pero siempre mejorando y respetando las mecánicas clásicas que tanto nos gustan.\n<br><br>\n<strong>¿Querés agitar ya?</strong>\n<ul>\n<li>Creá tu personaje y buscá en Ullathorpe al NPC de armadura roja.</li>\n<li>Entregale unas pieles de lobo y te dará el nivel máximo para duelear con amigos.</li>\n<li>¡Skills y oro liberados!</li>\n<li>Y si no te gusta tu personaje, usá /resetpj las veces que quieras hasta que quede como vos queres.</li>\n</ul>\n<br>\nTambién tenemos ítems especiales para personalizar tu personaje (cambio de rostro, género y más) mientras seguimos trabajando en nuevas sorpresas.\n<br><br>\n<strong>¡Los invitamos a probar el juego y revolear unos buenos apocas! ⚡</strong>",
+    "imagen": "https://cdn.discordapp.com/attachments/860283384618287134/1428419164787441857/ChatGPT_Image_15_oct_2025_09_21_07_p.m..png?ex=6a624103&is=6a60ef83&hm=2499dcc4b6d09605c5956c80187fdd3c69d4a899637e557f31d5732b821853c4&",
+    "autor": "Aygron",
+    "fecha": "2026-03-10"
+  },
+  {
+    "id": 2,
+    "titulo": "Convocatoria abierta – Equipo Arcanus Online",
+    "categoria": "Comunidad",
+    "resumen": "¿Querés formar parte del desarrollo de Arcanus Online? Estamos incorporando nuevos colaboradores para distintas áreas del proyecto.",
+    "contenido": "<strong>🧙‍♂️ Buscamos personas con ganas de aprender, trabajar en equipo y aportar su experiencia</strong> en programación, arte, balance, moderación, comunicación o testing.\n<br><br>\n<strong>💼 Áreas posibles:</strong>\n<ul>\n<li>Programación (VB6 / Node.js / PHP / MySQL)</li>\n<li>Game Masters y soporte en juego</li>\n<li>Diseño gráfico / Pixel art</li>\n<li>Balance y contenido</li>\n<li>Comunicación y redes</li>\n<li>Pruebas y QA</li>\n</ul>\n<br>\n<strong>📋 Completá el formulario de postulación:</strong><br>\n👉 <a>https://forms.gle/TBk7yZRJLiy2mfip9</a>\n<br><br>\n<p class=\"news-warning\">⚠️ 💬 Nos contactaremos por Discord o correo con los perfiles seleccionados.</p>",
+    "imagen": "https://cdn.discordapp.com/attachments/860283384618287134/1428419164787441857/ChatGPT_Image_15_oct_2025_09_21_07_p.m..png?ex=6a624103&is=6a60ef83&hm=2499dcc4b6d09605c5956c80187fdd3c69d4a899637e557f31d5732b821853c4&",
+    "autor": "Aygron",
+    "fecha": "2025-11-12"
+  },
+  {
+    "id": 3,
+    "titulo": "Nota del equipo de Arcanus Online",
+    "categoria": "Comunidad",
+    "resumen": "Queremos contarles algo con total transparencia.",
+    "contenido": "Queremos contarles algo con total transparencia.<br>\nDesde hace varios meses venimos cubriendo de nuestro bolsillo los costos de mantener online los servidores de <strong>Arcanus Online</strong>.\nLo hacemos porque creemos en el proyecto, porque nos gusta lo que hacemos y porque queremos que el juego siga creciendo.<br><br>\n\nSabemos que es nuestra responsabilidad y no nos quejamos de eso.<br><br>\nPero la realidad es que los costos de los servicios, la infraestructura y la seguridad aumentan todo el tiempo, y se hace cada vez más difícil sostenerlo solos.<br><br>\n\nPor eso <strong>decidimos abrir una cuenta en Mercado Pago y también en Cafecito</strong>, para que quienes quieran y puedan colaborar tengan la posibilidad de hacerlo.<br><br>\nNo es una obligación ni una campaña puntual, simplemente una manera de sumar entre todos para mantener viva esta aventura.<br><br>\n\nCada aporte, por más pequeño que sea, nos ayuda a seguir mejorando el juego, mantener los servidores estables y continuar desarrollando nuevo contenido para la comunidad.<br><br>\n\nGracias por seguir acompañándonos y por ser parte de este proyecto que seguimos construyendo juntos.<br><br>\n\n\n<hr>\n<h3>💳 Mercado Pago</h3>\n<strong>Alias:</strong> arcanusonline.mp<br>\n<strong>CVU:</strong> 0000003100007754895366<br>\n<strong>Nombre:</strong> Gonzalo Mariano Bazan<br>\n<hr>\n<h3>☕ Cafecito</h3>\n🔗 https://cafecito.app/arcanusonline\n<hr>",
+    "imagen": "https://cdn.discordapp.com/attachments/860283384618287134/1428419164787441857/ChatGPT_Image_15_oct_2025_09_21_07_p.m..png?ex=6a624103&is=6a60ef83&hm=2499dcc4b6d09605c5956c80187fdd3c69d4a899637e557f31d5732b821853c4&",
+    "autor": "Aygron",
+    "fecha": "2025-10-16"
+  }
+]
