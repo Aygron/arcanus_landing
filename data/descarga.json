@@ -14,21 +14,21 @@
     },
     {
       "id": "mega",
-      "label": "Descargar desde MEGA",
-      "detail": "Descarga cifrada y segura",
+      "label": "Descargar con MEGA",
+      "detail": "Nube cifrada y almacenamiento seguro",
       "url": "https://mega.nz/file/nx91nADQ#bUhf14462vPxwhPqfvOyGSuAgDHuCigeexvFgk_HY_Q",
-      "icon": "fas fa-hdd",
+      "icon": "fas fa-cloud",
       "class": "mega-btn",
-      "ariaLabel": "Descargar Arcanus Online desde MEGA - Descarga cifrada"
+      "ariaLabel": "Descargar Arcanus Online con MEGA - Nube cifrada y almacenamiento seguro"
     },
     {
       "id": "mediafire",
-      "label": "Descarga Directa",
-      "detail": "Sin esperas - Verificado",
+      "label": "Descargar con MediaFire",
+      "detail": "Descarga directa y rápida",
       "url": "https://www.mediafire.com/file/7n75dzs44mf2h4q/ArcanusSetup.0.9.0.970.exe/file",
       "icon": "fas fa-cloud-download-alt",
       "class": "mediafire-btn",
-      "ariaLabel": "Descargar Arcanus Online desde MediaFire - Descarga directa"
+      "ariaLabel": "Descargar Arcanus Online con MediaFire - Descarga directa y rápida"
     }
   ],
   "virusTotal": [

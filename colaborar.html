@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colaborar - Arcanus Online</title>
+    <meta name="description" content="Apoyá a Arcanus Online con tu contribución. Recibí Arcanus Coins, mantené el servidor vivo y disfrutá de beneficios cosméticos. Sin pay-to-win.">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="img/arcanus_logo.png" type="image/png">
+</head>
+<body>
+    <header>
+        <nav class="container top-nav" aria-label="Navegación principal">
+            <a href="/" class="logo-wrap" aria-label="Ir al inicio de Arcanus Online">
+                <span class="logo">Arcanus Online</span>
+                <span class="logo-subtitle">MMORPG medieval argentino</span>
+            </a>
+
+            <ul class="nav-menu">
+                <li><a href="/#hero">Inicio</a></li>
+                <li><a href="/#about">¿Qué es?</a></li>
+                <li><a href="/#noticias">Noticias</a></li>
+                <li><a href="/#gallery">Contenido</a></li>
+                <li><a href="/#faq">FAQ</a></li>
+                <li><a href="/#descarga">Descarga</a></li>
+                <li><a href="colaborar.html" class="active">Colaborar</a></li>
+                <li><a href="reglamento.html">Reglas</a></li>
+                <li><a href="https://discord.com/invite/DYFFeHKyw7" target="_blank" rel="noopener noreferrer">Discord</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero de contribución -->
+        <section id="hero" class="contribute-hero">
+            <div class="hero-content">
+                <span class="hero-overline">Sistema de Contribuidores</span>
+                <h1>Hacé crecer Arcanus Online</h1>
+                <p class="hero-story">Arcanus Online se mantiene gracias a su comunidad. Con tu aporte ayudás a sostener los costos del juego y las horas de dedicación puestas en hacer esto posible — y a cambio recibís <strong>Arcanus Coins</strong> para gastar en el juego. <strong>Esto no es pay-to-win</strong>: todo lo que se compra con Arcanus Coins es estético o beneficios muy ligeros — si no aportás, igual lo disfrutás sin desventaja.</p>
+            </div>
+        </section>
+
+        <!-- Panel de contribución -->
+        <section class="container contribute-panel">
+            <div class="panel-card">
+                <!-- Métodos de pago -->
+                <div class="payment-methods">
+                    <button type="button" class="payment-tab active" data-method="mp">
+                        <i class="fas fa-credit-card"></i>
+                        <span>Mercado Pago <small>ARS</small></span>
+                    </button>
+                    <button type="button" class="payment-tab" data-method="transfer">
+                        <i class="fas fa-university"></i>
+                        <span>Transferencia <small>ARS</small></span>
+                    </button>
+                </div>
+
+                <!-- Tipo de pago -->
+                <div class="payment-type" id="payment-type-selector">
+                    <label class="type-option active">
+                        <input type="radio" name="payment-type" value="unique" checked>
+                        <span class="type-title">Pago único</span>
+                        <span class="type-desc">Se cobra una sola vez</span>
+                    </label>
+                    <label class="type-option">
+                        <input type="radio" name="payment-type" value="subscription">
+                        <span class="type-title">Suscripción mensual</span>
+                        <span class="type-desc">Se renueva automáticamente</span>
+                    </label>
+                </div>
+
+                <!-- Disclaimer -->
+                <div class="contribution-disclaimer">
+                    <p>Tu contribución es un apoyo voluntario al juego. Los beneficios y recompensas son una muestra de gratitud, no un servicio garantizado: están sujetos a disponibilidad y pueden cambiar, agregarse o eliminarse en cualquier momento.</p>
+                    <p class="disclaimer-more">
+                        <i class="fas fa-caret-right"></i> <a href="politica-contribucion.html">Leer la política de contribución completa</a>
+                    </p>
+                    <label class="policy-accept">
+                        <input type="checkbox" id="accept-policy">
+                        <span>Leí y acepto la política de contribución. <a href="politica-contribucion.html">Ver política completa</a></span>
+                    </label>
+                </div>
+
+                <!-- Acción de contribución -->
+                <div class="transfer-details" id="transfer-details" hidden>
+                    <h3><i class="fas fa-university"></i> Datos para transferir</h3>
+                    <dl>
+                        <div><dt>Alias</dt><dd>arcanusonline.mp</dd></div>
+                        <div><dt>CVU</dt><dd>0000003100007754895366</dd></div>
+                        <div><dt>Nombre</dt><dd>Gonzalo Mariano Bazan</dd></div>
+                    </dl>
+                </div>
+                <a href="https://link.mercadopago.com.ar/arcanusonline" target="_blank" rel="noopener noreferrer" class="btn btn-large contribute-submit" id="contribute-btn" aria-disabled="true">
+                    <i class="fas fa-hand-holding-heart"></i>
+                    <span>Contribuir con Mercado Pago</span>
+                </a>
+
+                <!-- Info adicional -->
+                <div class="contribution-info">
+                    <div class="info-card">
+                        <i class="fas fa-shield-alt"></i>
+                        <p>Pagás a través de Mercado Pago o transferencia, sin compartirnos tus datos privados.</p>
+                    </div>
+                    <div class="info-card">
+                        <i class="fab fa-discord"></i>
+                        <p>Una vez realizado el aporte, contactanos en el <a href="https://discord.com/channels/860283261539450881/861762307172597790" target="_blank" rel="noopener noreferrer">canal de soporte de Discord</a> para recibir tu recompensa de agradecimiento.</p>
+                    </div>
+                </div>
+
+                <p class="support-text">¿Tenés problemas para realizar el pago o querés usar otro medio de pago? Escribinos por <a href="https://discord.com/channels/860283261539450881/861762307172597790" target="_blank" rel="noopener noreferrer">Discord</a> y podemos generar una acreditación manual.</p>
+            </div>
+        </section>
+
+        <!-- FAQ de contribuciones -->
+        <section class="container contribute-faq">
+            <header class="section-header">
+                <h2>Preguntas frecuentes</h2>
+                <p>Todo lo que necesitás saber sobre las contribuciones</p>
+            </header>
+            <div class="faq-container">
+                <div class="faq-item">
+                    <button class="faq-question" onclick="toggleFAQ(this)" aria-expanded="false">
+                        <span>¿Arcanus Online es pay-to-win?</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>No. Los Arcanus Coins y los beneficios de contribuidor son cosméticos o ventajas menores que no afectan la competitividad. Todos los jugadores pueden disfrutar el juego completo sin contribuir.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question" onclick="toggleFAQ(this)" aria-expanded="false">
+                        <span>¿Cuándo se acreditan los Arcanus Coins?</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Después de realizar tu aporte, debés solicitar los Arcanus Coins y beneficios de colaboración mediante un ticket en el <a href="https://discord.com/channels/860283261539450881/861762307172597790" target="_blank" rel="noopener noreferrer">canal de soporte de Discord</a>. El equipo verificará la contribución y gestionará la recompensa de agradecimiento.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question" onclick="toggleFAQ(this)" aria-expanded="false">
+                        <span>¿Puedo cancelar la suscripción?</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Sí, podés cancelar la suscripción desde Mercado Pago cuando quieras, utilizando la opción de administrar o cancelar tus suscripciones. La cancelación evita futuros cobros.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question" onclick="toggleFAQ(this)" aria-expanded="false">
+                        <span>¿Qué pasa si los beneficios cambian?</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Los beneficios están sujetos a cambios constantes según el balance del juego. No se aceptan reclamos por cambios, reducción o eliminación de beneficios.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h4>SÍGUENOS</h4>
+                    <div class="social-icons">
+                        <a href="https://instagram.com/arcanusonline" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.threads.net/@arcanusonline" target="_blank" rel="noopener noreferrer"><i class="fab fa-threads"></i></a>
+                        <a href="https://www.facebook.com/ArcanusOnline/" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://x.com/ArcanusOnline_" target="_blank" rel="noopener noreferrer"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.youtube.com/@ArcanusOnline" target="_blank" rel="noopener noreferrer"><i class="fab fa-youtube"></i></a>
+                        <a href="https://www.twitch.tv/arcanusonline" target="_blank" rel="noopener noreferrer"><i class="fab fa-twitch"></i></a>
+                        <a href="https://discord.com/invite/DYFFeHKyw7" target="_blank" rel="noopener noreferrer"><i class="fab fa-discord"></i></a>
+                    </div>
+                </div>
+                <div class="footer-column">
+                    <h4>ENLACES DE INTERÉS</h4>
+                    <ul>
+                        <li><a href="terminos.html">Términos de Servicio</a></li>
+                        <li><a href="privacidad.html">Política de Privacidad</a></li>
+                        <li><a href="politica-contribucion.html">Política de Contribuciones</a></li>
+                        <li><a href="reglamento.html">Reglas del Juego</a></li>
+                        <li><a href="colaborar.html">Colaborar</a></li>
+                        <li><a href="https://discord.com/invite/DYFFeHKyw7" target="_blank" rel="noopener noreferrer">Soporte (Discord)</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>SOBRE ARCANUS</h4>
+                    <p>Arcanus Online es un MMORPG gratuito basado en Argentum Online, creado por el staff de Tierras del Sur. Motor gráfico renovado, mecánicas clásicas y comunidad activa.</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Arcanus Online. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+    <script src="js/main.js"></script>
+    <script>
+        // Contribute page interactions
+        (function() {
+            const checkbox = document.getElementById('accept-policy');
+            const btn = document.getElementById('contribute-btn');
+            const transferDetails = document.getElementById('transfer-details');
+            const paymentTypeSelector = document.getElementById('payment-type-selector');
+            const paymentTabs = document.querySelectorAll('.payment-tab');
+            const paymentTypes = document.querySelectorAll('input[name="payment-type"]');
+            let selectedMethod = 'mp';
+            let selectedPaymentType = 'unique';
+
+            const paymentLinks = {
+                unique: 'https://link.mercadopago.com.ar/arcanusonline',
+                subscription: 'https://mpago.la/1iBbKyc'
+            };
+
+            function updateAction() {
+                if (!btn) return;
+                const isTransfer = selectedMethod === 'transfer';
+                const isAccepted = checkbox && checkbox.checked;
+                btn.classList.toggle('disabled', !isAccepted);
+                btn.setAttribute('aria-disabled', String(!isAccepted));
+                btn.querySelector('span').textContent = isTransfer
+                    ? 'Mostrar datos de transferencia'
+                    : selectedPaymentType === 'subscription'
+                        ? 'Contribuir con suscripción mensual'
+                        : 'Contribuir con Mercado Pago';
+                if (!isTransfer) {
+                    btn.href = paymentLinks[selectedPaymentType];
+                    btn.target = '_blank';
+                } else {
+                    btn.removeAttribute('href');
+                    btn.removeAttribute('target');
+                }
+                if (paymentTypeSelector) paymentTypeSelector.hidden = isTransfer;
+                if (transferDetails) transferDetails.hidden = !(isTransfer && isAccepted);
+            }
+
+            if (checkbox) checkbox.addEventListener('change', updateAction);
+
+            if (btn) {
+                btn.classList.add('disabled');
+                btn.addEventListener('click', (event) => {
+                    if (!checkbox || !checkbox.checked) {
+                        event.preventDefault();
+                        alert('Debés aceptar la política de contribución para continuar.');
+                        return;
+                    }
+                    if (selectedMethod === 'transfer') {
+                        event.preventDefault();
+                        if (transferDetails) transferDetails.hidden = false;
+                        transferDetails.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                    }
+                });
+            }
+
+            paymentTabs.forEach(tab => {
+                tab.addEventListener('click', () => {
+                    paymentTabs.forEach(item => item.classList.remove('active'));
+                    tab.classList.add('active');
+                    selectedMethod = tab.dataset.method;
+                    updateAction();
+                });
+            });
+
+            paymentTypes.forEach(type => {
+                type.addEventListener('change', () => {
+                    selectedPaymentType = type.value;
+                    document.querySelectorAll('.type-option').forEach(option => option.classList.remove('active'));
+                    type.closest('.type-option').classList.add('active');
+                    updateAction();
+                });
+            });
+
+            updateAction();
+        })();
+    </script>
+</body>
+</html>
