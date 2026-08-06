@@ -1,0 +1,76 @@
+{
+  "title": "Wiki de Arcanus Online",
+  "subtitle": "Guías, mecánicas y todo lo que necesitás saber del mundo de Arcanus",
+  "categories": [
+    {
+      "id": "general",
+      "title": "General",
+      "order": 1,
+      "entries": [
+        {
+          "id": 1,
+          "title": "Bienvenidos a la Wiki",
+          "slug": "bienvenidos",
+          "content": "<p>La <strong>Wiki de Arcanus Online</strong> reúne toda la información oficial sobre el juego: guías para nuevos jugadores, explicación de mecánicas, detalles de clases, razas y mucho más.</p>\n<p>Podés navegar por las categorías desde el menú lateral. Si no encontrás lo que buscás, unite a nuestro <a href=\"https://discord.com/invite/DYFFeHKyw7\" target=\"_blank\" rel=\"noopener noreferrer\">Discord oficial</a> y preguntá en el canal de soporte.</p>",
+          "order": 1
+        },
+        {
+          "id": 2,
+          "title": "Cómo empezar a jugar",
+          "slug": "como-empezar",
+          "content": "<p>Para comenzar tu aventura en Arcanus Online solo necesitás seguir estos pasos:</p>\n<ul>\n<li><strong>Descargá el cliente</strong> desde la sección de descargas de la web.</li>\n<li><strong>Instalá el juego</strong> y ejecutalo como administrador.</li>\n<li><strong>Creá tu cuenta</strong> y tu primer personaje.</li>\n<li><strong>Buscá en Ullathorpe al NPC de armadura roja</strong> y entregale unas pieles de lobo para obtener el nivel máximo y probar el PvP.</li>\n</ul>\n<p>Si no te gusta tu personaje, usá <strong>/resetpj</strong> las veces que quieras hasta que quede como vos querés.</p>",
+          "order": 2
+        }
+      ]
+    },
+    {
+      "id": "mecanicas",
+      "title": "Mecánicas",
+      "order": 2,
+      "entries": [
+        {
+          "id": 3,
+          "title": "Sistema de combate",
+          "slug": "sistema-de-combate",
+          "content": "<p>El combate de Arcanus Online conserva los <strong>intervalos y mecánicas clásicas</strong> de Argentum Online. Los enfrentamientos se basan en:</p>\n<ul>\n<li><strong>Clases y builds:</strong> cada clase tiene habilidades únicas y roles definidos.</li>\n<li><strong>Equipamiento:</strong> armas, armaduras y objetos especiales que potencian tu personaje.</li>\n<li><strong>Táctica de grupo:</strong> coordiná ataques, curaciones y controles para dominar los agites.</li>\n</ul>\n<p>Practicá en áreas seguras o con amigos antes de lanzarte a zonas PvP abiertas.</p>",
+          "order": 1
+        },
+        {
+          "id": 4,
+          "title": "Reset de personaje",
+          "slug": "reset-de-personaje",
+          "content": "<p>El comando <strong>/resetpj</strong> permite reiniciar tu personaje conservando ciertos progresos y empezar de nuevo con otra build.</p>\n<p>Usalo cuantas veces quieras para experimentar diferentes clases, razas y estrategias sin perder el vínculo con tu cuenta.</p>",
+          "order": 2
+        }
+      ]
+    },
+    {
+      "id": "clases",
+      "title": "Clases",
+      "order": 3,
+      "entries": [
+        {
+          "id": 5,
+          "title": "Guerrero",
+          "slug": "guerrero",
+          "content": "<p>El <strong>Guerrero</strong> es la clase cuerpo a cuerpo por excelencia. Destaca por su alta resistencia, gran daño físico y capacidad para liderar el frente de batalla.</p>\n<p>Es ideal para jugadores que disfrutan del combate directo, el uso de armas pesadas y proteger a sus aliados en agites masivos.</p>",
+          "order": 1
+        },
+        {
+          "id": 6,
+          "title": "Mago",
+          "slug": "mago",
+          "content": "<p>El <strong>Mago</strong> domina el poder arcano y puede infligir gran daño mágico a distancia. Sus hechizos de área son letales en enfrentamientos grupales, aunque su resistencia física es baja.</p>\n<p>Requiere buen posicionamiento y gestión de mana para rendir al máximo.</p>",
+          "order": 2
+        },
+        {
+          "id": 7,
+          "title": "Paladín",
+          "slug": "paladin",
+          "content": "<p>El <strong>Paladín</strong> combina capacidad de combate cuerpo a cuerpo con magia de soporte y curación. Es una clase versátil que puede adaptarse tanto al ataque como a la defensa según la necesidad del grupo.</p>",
+          "order": 3
+        }
+      ]
+    }
+  ]
+}

@@ -6,5 +6,15 @@ Thumbs.db
 .vscode/
 .idea/
 
+# Dependencias y entornos (no deberían commitearse)
+node_modules/
+.venv/
+venv/
+__pycache__/
+
+# Logs
+*.log
+npm-debug.log*
+
 # Panel de administración (solo uso local, no se sube al deploy)
 admin/

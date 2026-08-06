@@ -3,8 +3,14 @@
   "version": "1.0.0",
   "description": "Landing page de Arcanus Online",
   "private": true,
+  "homepage": "https://arcanusonline.com/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Aygron/arcanus_landing.git"
+  },
   "scripts": {
     "build": "node scripts/build.js",
+    "start": "node scripts/server.js",
     "serve": "npx serve -l 3000"
   }
 }

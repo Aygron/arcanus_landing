@@ -120,6 +120,20 @@ function escapeHtml(text) {
 }
 
 // Lightbox Gallery
+// Medir altura real del header (fixed) y exponerla como variable CSS
+// Esto evita superposiciones del header con el contenido en cualquier
+// ancho de pantalla, incluso cuando el menú se envuelve en varias líneas.
+function updateHeaderHeightVar() {
+    const header = document.querySelector('header');
+    if (!header) return;
+    const height = header.offsetHeight;
+    document.documentElement.style.setProperty('--header-height', height + 'px');
+}
+
+window.addEventListener('load', updateHeaderHeightVar);
+window.addEventListener('resize', updateHeaderHeightVar);
+document.addEventListener('DOMContentLoaded', updateHeaderHeightVar);
+
 document.addEventListener("DOMContentLoaded", function() {
     // Cargar contenido dinámico desde JSONs
     loadNoticias();
@@ -127,42 +141,6 @@ document.addEventListener("DOMContentLoaded", function() {
     loadFaqSection();
     loadDescargaSection();
     
-    // Contador animado de jugadores
-    function animateCounter() {
-        const counters = document.querySelectorAll('.counter-number');
-        const speed = 200; // Velocidad de animación
-        
-        counters.forEach(counter => {
-            const target = +counter.getAttribute('data-target');
-            const increment = target / speed;
-            
-            const updateCount = () => {
-                const count = +counter.innerText;
-                
-                if (count < target) {
-                    counter.innerText = Math.ceil(count + increment);
-                    setTimeout(updateCount, 1);
-                } else {
-                    counter.innerText = target;
-                }
-            };
-            
-            // Iniciar animación cuando el elemento sea visible
-            const observer = new IntersectionObserver((entries) => {
-                entries.forEach(entry => {
-                    if (entry.isIntersecting) {
-                        updateCount();
-                        observer.unobserve(entry.target);
-                    }
-                });
-            });
-            
-            observer.observe(counter);
-        });
-    }
-    
-    animateCounter();
-
     // Lightbox functionality
     let slideIndex = 1;
     showSlides(slideIndex);
@@ -200,9 +178,9 @@ document.addEventListener("DOMContentLoaded", function() {
     // Smooth Scroll
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         anchor.addEventListener('click', function (e) {
-            e.preventDefault();
             const target = document.querySelector(this.getAttribute('href'));
             if (target) {
+                e.preventDefault();
                 target.scrollIntoView({
                     behavior: 'smooth',
                     block: 'start'
@@ -211,55 +189,42 @@ document.addEventListener("DOMContentLoaded", function() {
         });
     });
 
-    // Cuenta regresiva hasta el 29 de agosto de 2025 19:00 hs (hora Argentina)
-    function updateCountdown() {
-        // Fecha objetivo: 29 de agosto de 2025 19:00 hs (hora Argentina)
-        const targetDate = new Date('2025-08-29T19:00:00-03:00');
-        const now = new Date();
-        
-        // Diferencia en milisegundos
-        const diff = targetDate - now;
-        
-        // Si la fecha ya pasó
-        if (diff <= 0) {
-            const countdownEl = document.getElementById('countdown');
-            if (countdownEl) {
-                countdownEl.innerHTML = '<div class="countdown-message">¡El lanzamiento ya está aquí!</div>';
-            }
-            return;
-        }
-        
-        // Calcular días, horas, minutos y segundos
-        const days = Math.floor(diff / (1000 * 60 * 60 * 24));
-        const hours = Math.floor((diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-        const minutes = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
-        const seconds = Math.floor((diff % (1000 * 60)) / 1000);
-        
-        // Actualizar los elementos del DOM
-        const daysEl = document.getElementById('days');
-        const hoursEl = document.getElementById('hours');
-        const minutesEl = document.getElementById('minutes');
-        const secondsEl = document.getElementById('seconds');
-        
-        if (daysEl) daysEl.textContent = days.toString().padStart(2, '0');
-        if (hoursEl) hoursEl.textContent = hours.toString().padStart(2, '0');
-        if (minutesEl) minutesEl.textContent = minutes.toString().padStart(2, '0');
-        if (secondsEl) secondsEl.textContent = seconds.toString().padStart(2, '0');
-        
-        // Efecto de parpadeo cuando quedan pocos segundos
-        if (days === 0 && hours === 0 && minutes < 5) {
-            if (secondsEl && seconds % 2 === 0) {
-                secondsEl.classList.add('pulse');
-            } else if (secondsEl) {
-                secondsEl.classList.remove('pulse');
+    // Mobile menu hamburger
+    const menuToggle = document.querySelector('.menu-toggle');
+    const mainMenu = document.getElementById('main-menu');
+    if (menuToggle && mainMenu) {
+        const icon = menuToggle.querySelector('i');
+
+        function updateMenuState(isOpen) {
+            menuToggle.setAttribute('aria-expanded', String(isOpen));
+            menuToggle.setAttribute('aria-label', isOpen ? 'Cerrar menú' : 'Abrir menú');
+            if (icon) {
+                icon.classList.toggle('fa-bars', !isOpen);
+                icon.classList.toggle('fa-xmark', isOpen);
             }
         }
+
+        menuToggle.addEventListener('click', function () {
+            const isOpen = mainMenu.classList.toggle('nav-open');
+            updateMenuState(isOpen);
+        });
+
+        mainMenu.querySelectorAll('a').forEach(link => {
+            link.addEventListener('click', function () {
+                mainMenu.classList.remove('nav-open');
+                updateMenuState(false);
+            });
+        });
+
+        document.addEventListener('click', function (e) {
+            if (!mainMenu.classList.contains('nav-open')) return;
+            if (!mainMenu.contains(e.target) && !menuToggle.contains(e.target)) {
+                mainMenu.classList.remove('nav-open');
+                updateMenuState(false);
+            }
+        });
     }
-    
-    // Actualizar la cuenta regresiva cada segundo
-    updateCountdown();
-    setInterval(updateCountdown, 1000);
-    
+
     // Mejoras de accesibilidad: soporte para teclado en lightbox y modal noticias
     document.addEventListener('keydown', function(e) {
         if (e.key === 'Escape') {
