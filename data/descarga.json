@@ -6,17 +6,17 @@
     {
       "id": "github",
       "label": "Descargar Instalador",
-      "detail": "Versión v0.9.0.970 - 100% Seguro",
-      "url": "https://github.com/ArcanusOnline/CLI_Releases/releases/download/v0.0.1/ArcanusSetup.0.9.0.970.exe",
+      "detail": "Versión v0.9.0.1001 - 100% Seguro",
+      "url": "https://github.com/ArcanusOnline/CLI_Releases/releases/download/v0.0.1/ArcanusSetup.0.9.0.1001.exe",
       "icon": "fab fa-github",
       "class": "github-btn",
-      "ariaLabel": "Descargar Arcanus Online desde GitHub - Versión estable v0.9.0.970"
+      "ariaLabel": "Descargar Arcanus Online desde GitHub - Versión estable v0.9.0.1001"
     },
     {
       "id": "mega",
       "label": "Descargar con MEGA",
       "detail": "Nube cifrada y almacenamiento seguro",
-      "url": "https://mega.nz/file/nx91nADQ#bUhf14462vPxwhPqfvOyGSuAgDHuCigeexvFgk_HY_Q",
+      "url": "https://mega.nz/file/T0kW0SLK#aAj36cDWHX7jpszoaAHltLzJpnQv_Lsp07R37lY3Bro",
       "icon": "fas fa-cloud",
       "class": "mega-btn",
       "ariaLabel": "Descargar Arcanus Online con MEGA - Nube cifrada y almacenamiento seguro"
@@ -25,7 +25,7 @@
       "id": "mediafire",
       "label": "Descargar con MediaFire",
       "detail": "Descarga directa y rápida",
-      "url": "https://www.mediafire.com/file/7n75dzs44mf2h4q/ArcanusSetup.0.9.0.970.exe/file",
+      "url": "https://www.mediafire.com/file/ki6zj54wpljyy4l/ArcanusSetup.0.9.0.1001.exe/file",
       "icon": "fas fa-cloud-download-alt",
       "class": "mediafire-btn",
       "ariaLabel": "Descargar Arcanus Online con MediaFire - Descarga directa y rápida"
@@ -35,13 +35,13 @@
     {
       "label": "Instalador",
       "detail": "Análisis completo",
-      "url": "https://www.virustotal.com/gui/file/4098431b56c829b11b9c316241169ca10822853b85554b537619b96243b30112",
+      "url": "https://www.virustotal.com/gui/file/47719b20772b0b4b6fcaa4b30ef0221242e726e640de033238741ab36792231f",
       "ariaLabel": "Ver análisis de VirusTotal del Instalador"
     },
     {
       "label": "Cliente del Juego",
       "detail": "Análisis completo",
-      "url": "https://www.virustotal.com/gui/file/6ebeeb776cfbfff89de32841429eb34ac208330bb590fbceadcc899cedff18c3",
+      "url": "https://www.virustotal.com/gui/file/a6338fb4c5883f253b272d83542a9fe26916f52e33feefba101f35e0f8c96fc1",
       "ariaLabel": "Ver análisis de VirusTotal del Cliente"
     }
   ],
